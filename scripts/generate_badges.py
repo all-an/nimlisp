@@ -242,8 +242,8 @@ def estimate_coverage_fallback() -> float:
 def create_badge_url(label: str, message: str, color: str) -> str:
     """Create a shields.io badge URL"""
     # URL encode spaces and special characters
-    label = label.replace(" ", "%20")
-    message = message.replace(" ", "%20")
+    label = label.replace("%", "%25").replace(" ", "%20")
+    message = message.replace("%", "%25").replace(" ", "%20")
     return f"https://img.shields.io/badge/{label}-{message}-{color}.svg"
 
 def generate_badges() -> Dict[str, str]:
