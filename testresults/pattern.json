@@ -1,0 +1,7 @@
+[
+{"name":"tests/t_ast.nim c","category":"pattern","target":"c","action":"run","result":"reSuccess","expected":"","given":"","machine":"allan","commit":"28b18d91d64","branch":"main"},
+{"name":"tests/t_evaluator.nim c","category":"pattern","target":"c","action":"run","result":"reSuccess","expected":"","given":"","machine":"allan","commit":"28b18d91d64","branch":"main"},
+{"name":"tests/t_lexer.nim c","category":"pattern","target":"c","action":"run","result":"reSuccess","expected":"","given":"","machine":"allan","commit":"28b18d91d64","branch":"main"},
+{"name":"tests/t_parser.nim c","category":"pattern","target":"c","action":"run","result":"reSuccess","expected":"","given":"","machine":"allan","commit":"28b18d91d64","branch":"main"},
+{"name":"tests/t_repl.nim c","category":"pattern","target":"c","action":"run","result":"reSuccess","expected":"","given":"","machine":"allan","commit":"28b18d91d64","branch":"main"},
+{"name":"tests/t_token.nim c","category":"pattern","target":"c","action":"run","result":"reSuccess","expected":"","given":"","machine":"allan","commit":"28b18d91d64","branch":"main"}]
