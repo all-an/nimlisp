@@ -1,9 +1,9 @@
 # NimLisp
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
-[![Test Coverage](https://img.shields.io/badge/coverage-61.9%-red)](#)
-[![Tests](https://img.shields.io/badge/tests-22%20tests-brightgreen)](#)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](#)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+[![Test Coverage](https://img.shields.io/badge/coverage-61.9%-red.svg)](#)
+[![Tests](https://img.shields.io/badge/tests-22%20tests-brightgreen.svg)](#)
+[![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](#)
 
 A compiler for a pure functional, metaprogramming, homoiconic systems programming language, implemented in Nim.
 

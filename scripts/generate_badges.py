@@ -108,8 +108,7 @@ def run_tests() -> Dict[str, Any]:
             test_results["test_functions"] = test_blocks
             test_results["status"] = "failing"
         
-        # Generate HTML report
-        run_command("testament html")
+        # Skip HTML report generation
         
         # Note: Test executable cleanup is deferred until after coverage calculation
     else:
@@ -245,7 +244,7 @@ def create_badge_url(label: str, message: str, color: str) -> str:
     # URL encode spaces and special characters
     label = label.replace(" ", "%20")
     message = message.replace(" ", "%20")
-    return f"https://img.shields.io/badge/{label}-{message}-{color}"
+    return f"https://img.shields.io/badge/{label}-{message}-{color}.svg"
 
 def generate_badges() -> Dict[str, str]:
     """Generate all badges and return URLs"""
